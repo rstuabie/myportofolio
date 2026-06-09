@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio | Restu Abie</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ═══════════════════════════ NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Restu Abie</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tech">Tech Stack</a></li>
+        <li class="nav-item"><a class="nav-link" href="#stats">Stats</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ HERO -->
+<section class="hero d-flex align-items-center">
+  <div class="container text-center" data-aos="fade-up">
+
+    <img src="img/pp.webp"
+      class="profile-img mb-4"
+      alt="Profile"
+      onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex'">
+    <div id="avatar-fallback" class="avatar-fallback mb-4" style="display:none;">
+      <i class="bi bi-person-fill"></i>
+    </div>
+
+    <h1 class="fw-bold">
+      Hi, I'm <span class="text-primary">Restu Abie Sucipto</span>
+    </h1>
+
+    <p class="hero-text mx-auto">
+      A passionate IT enthusiast with a strong interest in web development and cloud computing. I enjoy learning new technologies and applying them to create innovative solutions.
+    </p>
+
+    <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+      <a href="#projects" class="btn btn-primary btn-lg">
+        <i class="bi bi-grid-3x3-gap-fill me-2"></i>View Projects
+      </a>
+      <a href="#contact" class="btn btn-outline-light btn-lg">
+        <i class="bi bi-send me-2"></i>Contact Me
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ ABOUT -->
+<section id="about" class="about section-padding" data-aos="fade-up">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Passionate about technology and continuous learning.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="modern-card glow-card">
+          <h4 class="mb-3"><i class="bi bi-person-lines-fill text-primary me-2"></i>Biography</h4>
+          <p>
+            I'm a dedicated IT enthusiast with a strong passion for web development and cloud computing. I have a background in computer science and enjoy exploring new technologies to create innovative solutions. With a focus on continuous learning, I strive to stay updated with the latest trends in the tech industry and apply my skills to real-world projects.
+          </p>
+          <div class="mt-3 d-flex flex-wrap gap-2">
+            <span class="info-badge"><i class="bi bi-mortarboard-fill me-1"></i>GPA 3.68</span>
+            <span class="info-badge"><i class="bi bi-geo-alt-fill me-1"></i>Indonesia</span>
+            <span class="info-badge"><i class="bi bi-check-circle-fill me-1"></i>Available for Work</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="modern-card glow-card">
+          <h4 class="mb-3"><i class="bi bi-lightning-fill text-primary me-2"></i>Skills</h4>
+          <div class="skill-item">Web Developer</div>
+          <div class="skill-item">Microsoft Office</div>
+          <div class="skill-item">Networking</div>
+          <div class="skill-item">Cloud Computing</div>
+          <div class="skill-item">MikroTik</div>
+          <div class="skill-item">Technical Support</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ PROJECTS -->
+<section id="projects" class="projects section-padding">
+  <div class="container" data-aos="fade-up">
+
+    <div class="text-center mb-5">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">Some projects that I have worked on.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-6">
+        <div class="project-card glow-card">
+          <img src="img/project1.webp" alt="RT/RW NET"
+            onerror="this.src='https://placehold.co/600x200/1e293b/38bdf8?text=RT%2FRW+NET'">
+          <div class="p-4">
+            <div class="mb-2">
+              <span class="project-tag">Networking</span>
+              <span class="project-tag">MikroTik</span>
+              <span class="project-tag">ISP</span>
+              <span class="project-tag">Infrastruktur</span>
+              <span class="project-tag">Hotspot</span>
+              <span class="project-tag">PPPOE</span>
+              <span class="project-tag draft-tag">Community Project</span>
+            </div>
+            <h5 class="fw-bold mt-2">RT/RW NET</h5>
+            <p class="text-muted-custom">A community-based internet service provider project for local neighborhoods.</p>
+            <button class="btn btn-outline-primary btn-sm" onclick='openModal({
+              title: "RT/RW NET",
+              img: "img/project1.webp",
+              fallback: "https://placehold.co/800x300/1e293b/38bdf8?text=RT%2FRW+NET",
+              year: "2023",
+              role: "Network Engineer",
+              status: "Completed",
+              client: "Komunitas RT 05",
+              tags: ["Networking","MikroTik","ISP","Infrastruktur","Hotspot","PPPOE"],
+              desc: "Proyek RT/RW NET membangun layanan internet berbasis komunitas untuk warga lokal di lingkungan RT 05. Jaringan dikonfigurasi menggunakan perangkat MikroTik RouterBoard untuk mendistribusikan koneksi internet berkecepatan tinggi ke lebih dari 30 rumah tangga dengan biaya terjangkau dan sistem manajemen terpusat.",
+              features: [
+                "Instalasi & konfigurasi MikroTik RouterBoard sebagai pusat manajemen",
+                "Distribusi koneksi ke 30+ rumah tangga via kabel & wireless",
+                "Bandwidth management per pengguna dengan Queue Tree",
+                "Hotspot login page dengan sistem autentikasi user",
+                "Monitoring jaringan real-time via Winbox & The Dude",
+                "Firewall rules untuk keamanan jaringan lokal"
+              ],
+              link: "#"
+            })'>
+              <i class="bi bi-eye me-1"></i>Detail
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-6">
+        <div class="project-card glow-card">
+          <img src="img/project2.webp" alt="Portfolio Website"
+            onerror="this.src='https://placehold.co/600x200/1e293b/38bdf8?text=Portfolio+Website'">
+          <div class="p-4">
+            <div class="mb-2">
+              <span class="project-tag">HTML/CSS</span>
+              <span class="project-tag">Bootstrap</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h5 class="fw-bold mt-2">Portfolio Website</h5>
+            <p class="text-muted-custom">Responsive personal portfolio with modern UI design.</p>
+            <button class="btn btn-outline-primary btn-sm" onclick='openModal({
+              title: "Portfolio Website",
+              img: "img/project2.webp",
+              fallback: "https://placehold.co/800x300/1e293b/38bdf8?text=Portfolio+Website",
+              year: "2024",
+              role: "Frontend Developer",
+              status: "Completed",
+              client: "Personal",
+              tags: ["HTML5","CSS3","Bootstrap 5","JavaScript","AOS Animation"],
+              desc: "Website portofolio pribadi yang dibangun untuk menampilkan proyek, kemampuan, dan informasi kontak secara profesional. Menggunakan Bootstrap 5 sebagai framework CSS dengan tambahan animasi AOS untuk efek scroll reveal yang halus. Desain responsif dan dioptimalkan untuk performa loading yang cepat.",
+              features: [
+                "Desain responsif untuk mobile, tablet, dan desktop",
+                "Animasi scroll reveal menggunakan library AOS",
+                "Section: Hero, About, Skills, Projects, Certificates, Education, Experience, Contact",
+                "Navbar sticky dengan efek blur backdrop",
+                "Tech stack section dengan floating icon animation",
+                "Dark mode elegant dengan palet warna konsisten"
+              ],
+              link: "#"
+            })'>
+              <i class="bi bi-eye me-1"></i>Detail
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-6">
+        <div class="project-card glow-card">
+          <img src="img/project3.webp" alt="Party Platform"
+            onerror="this.src='https://placehold.co/600x200/1e293b/38bdf8?text=Party+Platform'">
+          <div class="p-4">
+            <div class="mb-2">
+              <span class="project-tag">Laravel</span>
+              <span class="project-tag">Vue.js</span>
+              <span class="project-tag">Data Viz</span>
+              <span class="project-tag draft-tag">Draft</span>
+            </div>
+            <h5 class="fw-bold mt-2">Website For Party Platform Politics</h5>
+            <p class="text-muted-custom">A website for a political party platform, showcasing general election data for each region in Indonesia.</p>
+            <button class="btn btn-outline-primary btn-sm" onclick='openModal({
+              title: "Website For Party Platform Politics",
+              img: "img/project3.webp",
+              fallback: "https://placehold.co/800x300/1e293b/38bdf8?text=Party+Platform",
+              year: "2024",
+              role: "Full Stack Developer",
+              status: "Draft / In Progress",
+              client: "Political Party (Confidential)",
+              tags: ["Laravel","Vue.js","MySQL","Chart.js","GeoJSON","REST API"],
+              desc: "Website platform partai politik yang menampilkan data pemilu legislatif per daerah seluruh Indonesia. Dilengkapi peta interaktif persebaran suara dan grafik perbandingan antar caleg. Sistem dirancang untuk memudahkan tim analisis partai dalam membaca tren perolehan suara tiap dapil secara real-time.",
+              features: [
+                "Dashboard rekap suara per provinsi & kabupaten/kota",
+                "Peta interaktif persebaran suara berbasis GeoJSON Indonesia",
+                "Grafik perbandingan perolehan suara antar caleg & dapil",
+                "Sistem autentikasi multi-role untuk admin & operator",
+                "Import data suara via file Excel (batch upload)",
+                "Export laporan ke format PDF & Excel"
+              ],
+              link: "#"
+            })'>
+              <i class="bi bi-eye me-1"></i>Detail
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="col-md-6">
+        <div class="project-card glow-card">
+          <img src="img/project4.jpeg" alt="CCTV Mosque"
+            onerror="this.src='https://placehold.co/600x200/1e293b/38bdf8?text=CCTV+Mosque'">
+          <div class="p-4">
+            <div class="mb-2">
+              <span class="project-tag">CCTV</span>
+              <span class="project-tag">Hardware</span>
+              <span class="project-tag">Security</span>
+            </div>
+            <h5 class="fw-bold mt-2">Installing CCTV In Mosque</h5>
+            <p class="text-muted-custom">A project to install CCTV cameras in a mosque to enhance security and monitoring capabilities.</p>
+            <button class="btn btn-outline-primary btn-sm" onclick='openModal({
+              title: "Installing CCTV In Mosque",
+              img: "img/project4.jpeg",
+              fallback: "https://placehold.co/800x300/1e293b/38bdf8?text=CCTV+Mosque",
+              year: "2023",
+              role: "Installation Technician",
+              status: "Completed",
+              client: "DKM Masjid Al-Ikhlas",
+              tags: ["CCTV","IP Camera","DVR","Networking","Remote Access"],
+              desc: "Proyek pemasangan kamera CCTV di Masjid Al-Ikhlas untuk meningkatkan keamanan dan kemampuan pemantauan seluruh area masjid. Meliputi survei lokasi, perencanaan titik kamera, instalasi hardware, penarikan kabel terstruktur, dan konfigurasi DVR agar dapat dipantau secara remote oleh pengurus masjid.",
+              features: [
+                "Survei & perencanaan penempatan 6 titik kamera strategis",
+                "Instalasi IP camera di area dalam & luar masjid",
+                "Konfigurasi DVR 8 channel dengan penyimpanan lokal HDD",
+                "Penarikan kabel terstruktur & rapi sepanjang gedung",
+                "Setup akses remote monitoring via smartphone (CMS App)",
+                "Pelatihan penggunaan sistem kepada pengurus masjid"
+              ],
+              link: "#"
+            })'>
+              <i class="bi bi-eye me-1"></i>Detail
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CERTIFICATES -->
+<section id="certificates" class="section-padding">
+  <div class="container" data-aos="fade-up">
+
+    <div class="text-center mb-5">
+      <h2 class="section-title">Certificates</h2>
+      <p class="section-subtitle">Some certifications and courses I have completed.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Certificate 1 -->
+      <div class="col-md-4">
+        <div class="certificate-card glow-card">
+          <img src="img/certificate1.webp" alt="Certificate"
+            onerror="this.src='https://placehold.co/400x220/1e293b/38bdf8?text=Certificate'">
+          <div class="p-4">
+            <h5 class="fw-bold">Microsoft Office Specialist</h5>
+            <p class="text-muted-custom">Certified in Microsoft Word, Excel, and PowerPoint.</p>
+            <a href="https://drive.google.com/" target="_blank" class="btn btn-primary btn-sm">
+              <i class="bi bi-award-fill me-1"></i>View Certificate
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-md-4">
+        <div class="certificate-card glow-card">
+          <img src="img/certificate2.webp" alt="Certificate"
+            onerror="this.src='https://placehold.co/400x220/1e293b/38bdf8?text=Certificate'">
+          <div class="p-4">
+            <h5 class="fw-bold">Cloud Computing Fundamentals</h5>
+            <p class="text-muted-custom">Understanding the fundamentals of cloud computing.</p>
+            <a href="https://drive.google.com/" target="_blank" class="btn btn-primary btn-sm">
+              <i class="bi bi-award-fill me-1"></i>View Certificate
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="https://drive.google.com/" target="_blank" class="btn btn-outline-primary">
+        <i class="bi bi-collection-fill me-2"></i>More Certificates
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ EDUCATION -->
+<section id="education" class="section-padding">
+  <div class="container" data-aos="fade-up">
+
+    <div class="text-center mb-5">
+      <h2 class="section-title">Education</h2>
+      <p class="section-subtitle">My educational background and qualifications.</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2018 – 2021</span>
+          <h4>SMK TI AN-NISA 2</h4>
+          <h6 class="text-primary">Computer and Network Engineering</h6>
+          <p>Studied computer science with a focus on networking and IT infrastructure.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2021 – 2025</span>
+          <h4>Sekolah Tinggi Teknologi Terpadu Nurul Fikri</h4>
+          <h6 class="text-primary">S1 Informatics Engineering · GPA 3.68</h6>
+          <p>Pursued a degree in informatics engineering, focusing on software development and IT systems.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ EXPERIENCE -->
+<section id="experience" class="section-padding">
+  <div class="container" data-aos="fade-up">
+
+    <div class="text-center mb-5">
+      <h2 class="section-title">Work Experience</h2>
+      <p class="section-subtitle">My professional journey and experiences.</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">January 2021 – June 2021</span>
+          <h4>Network Operation Center</h4>
+          <h6 class="text-primary">Internship</h6>
+          <p>Monitored and maintained network infrastructure, ensuring optimal performance and security.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2022 – 2023</span>
+          <h4>Staff Warehouse Lazada Logistics</h4>
+          <h6 class="text-primary">Freelance (Daily Worker)</h6>
+          <p>Packing and sorting goods in the warehouse, ensuring timely and accurate order fulfillment.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2025 – Present</span>
+          <h4>Web Development Learning Journey</h4>
+          <h6 class="text-primary">Self Learning</h6>
+          <p>Learned frontend and backend web development, including Laravel, Bootstrap, Git, and responsive design.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2025 – Present</span>
+          <h4>PT. Ayooklik Pantero Teknologi</h4>
+          <h6 class="text-primary">Technical Support</h6>
+          <p>Provided technical support for cloud-based solutions, assisting clients with deployment, configuration, and troubleshooting.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ TECH STACK -->
+<section id="tech" class="section-padding">
+  <div class="container text-center" data-aos="fade-up">
+
+    <h2 class="section-title mb-3">Tech Stack</h2>
+    <p class="section-subtitle mb-5">Technologies and tools that I use.</p>
+
+    <div class="tech-grid">
+      <div class="tech-icon" title="HTML5"><img src="img/html.png" alt="HTML"></div>
+      <div class="tech-icon" title="CSS3"><img src="img/css3.png" alt="CSS"></div>
+      <div class="tech-icon" title="JavaScript"><img src="img/javascript.png" alt="JavaScript"></div>
+      <div class="tech-icon" title="Bootstrap"><img src="img/bootstrap.png" alt="Bootstrap"></div>
+      <div class="tech-icon" title="Laravel"><img src="img/laravel.png" alt="Laravel"></div>
+      <div class="tech-icon" title="React"><img src="img/react.png" alt="React"></div>
+      <div class="tech-icon" title="Git"><img src="img/git.png" alt="Git"></div>
+      <div class="tech-icon" title="GitHub"><img src="img/github.png" alt="Github"></div>
+      <div class="tech-icon" title="Docker"><img src="img/docker.png" alt="Docker"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ STATS -->
+<section id="stats" class="section-padding" data-aos="fade-up">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-6 col-md-3">
+        <div class="stats-card">
+          <h2>4+</h2>
+          <p>Projects</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stats-card">
+          <h2>10+</h2>
+          <p>Certificates</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stats-card">
+          <h2>2+</h2>
+          <p>Years Learning</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stats-card">
+          <h2>100%</h2>
+          <p>Passion</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CONTACT -->
+<section id="contact" class="section-padding" data-aos="fade-up">
+  <div class="container">
+
+    <div class="text-center mb-5">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-subtitle">
+        Let's work together and build something amazing.
+      </p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Email -->
+      <div class="col-lg-4 col-md-6">
+        <a href="mailto:restuabie1@gmail.com"
+          class="contact-card text-decoration-none">
+          <i class="bi bi-envelope-fill"></i>
+          <h5>Email</h5>
+          <p>restuabie1@gmail.com</p>
+        </a>
+      </div>
+
+      <!-- Whatsapp -->
+      <div class="col-lg-4 col-md-6">
+        <a href="https://wa.me/6285121394008"
+          target="_blank"
+          class="contact-card text-decoration-none">
+          <i class="bi bi-whatsapp"></i>
+          <h5>WhatsApp</h5>
+          <p>+62 851-2139-4008</p>
+        </a>
+      </div>
+
+      <!-- Linkedin -->
+      <div class="col-lg-4 col-md-6">
+        <a href="https://linkedin.com/in/rstuabie"
+          target="_blank"
+          class="contact-card text-decoration-none">
+          <i class="bi bi-linkedin"></i>
+          <h5>LinkedIn</h5>
+          <p>rstuabie</p>
+        </a>
+      </div>
+
+      <!-- Instagram -->
+      <div class="col-lg-4 col-md-6">
+        <a href="https://instagram.com/rstu_abie"
+          target="_blank"
+          class="contact-card text-decoration-none">
+          <i class="bi bi-instagram"></i>
+          <h5>Instagram</h5>
+          <p>@rstu_abie</p>
+        </a>
+      </div>
+
+      <!-- Github -->
+      <div class="col-lg-4 col-md-6">
+        <a href="https://github.com/restu-abie"
+          target="_blank"
+          class="contact-card text-decoration-none">
+          <i class="bi bi-github"></i>
+          <h5>GitHub</h5>
+          <p>rstuabie</p>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER -->
+<footer class="text-center py-4">
+  <p class="mb-0">© 2026 Restu Abie Sucipto. All rights reserved.</p>
+</footer>
+
+<!-- ═══════════════════════════ PROJECT DETAIL MODAL -->
+<div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="mTitle">Project Detail</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <img id="mImg" src="" alt="" class="modal-project-img">
+
+        <!-- Tags -->
+        <div id="mTags" class="mb-3"></div>
+
+        <!-- Info grid -->
+        <div class="modal-info-grid mb-4">
+          <div class="modal-info-box">
+            <label><i class="bi bi-calendar3 me-1"></i>Year</label>
+            <span id="mYear">—</span>
+          </div>
+          <div class="modal-info-box">
+            <label><i class="bi bi-person-gear me-1"></i>Role</label>
+            <span id="mRole">—</span>
+          </div>
+          <div class="modal-info-box">
+            <label><i class="bi bi-check2-circle me-1"></i>Status</label>
+            <span id="mStatus">—</span>
+          </div>
+          <div class="modal-info-box">
+            <label><i class="bi bi-building me-1"></i>Client</label>
+            <span id="mClient">—</span>
+          </div>
+        </div>
+
+        <!-- Description -->
+        <p class="modal-section-label">Project Description</p>
+        <p id="mDesc" class="modal-desc"></p>
+
+        <!-- Features -->
+        <p class="modal-section-label">What I Did</p>
+        <ul class="modal-feat-list" id="mFeatures"></ul>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+        <a id="mLink" href="#" target="_blank" class="btn btn-primary btn-sm">
+          <i class="bi bi-box-arrow-up-right me-1"></i>Visit Project
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init({ duration: 1000, once: true });
+
+  // Active nav link on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 130) current = s.getAttribute('id');
+    });
+    navLinks.forEach(l => {
+      l.classList.remove('active');
+      if (l.getAttribute('href') === '#' + current) l.classList.add('active');
+    });
+  });
+
+  // Project modal
+  function openModal(d) {
+    document.getElementById('mTitle').textContent  = d.title;
+    document.getElementById('mYear').textContent   = d.year;
+    document.getElementById('mRole').textContent   = d.role;
+    document.getElementById('mStatus').textContent = d.status;
+    document.getElementById('mClient').textContent = d.client;
+    document.getElementById('mDesc').textContent   = d.desc;
+    document.getElementById('mLink').href          = d.link;
+
+    const img = document.getElementById('mImg');
+    img.src = d.img;
+    img.onerror = () => { img.src = d.fallback; };
+
+    document.getElementById('mTags').innerHTML =
+      d.tags.map(t => `<span class="project-tag">${t}</span>`).join('');
+
+    document.getElementById('mFeatures').innerHTML =
+      d.features.map(f => `<li>${f}</li>`).join('');
+
+    new bootstrap.Modal(document.getElementById('projectModal')).show();
+  }
+</script>
+
+</body>
+</html>
